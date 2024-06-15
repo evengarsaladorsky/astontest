@@ -4,10 +4,10 @@ public class Test1 {
 
     public static void main(String[] args) {
         try {
-            System.out.print("Введите первое число: >");
+            System.out.print("Введите первое число  a: >");
             int a = Integer.parseInt(System.console().readLine());
 
-            System.out.print("Введите второе число: >");
+            System.out.print("Введите второе число  b: >");
             int b = Integer.parseInt(System.console().readLine());
 
             Comparison(a, b);
