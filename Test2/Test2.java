@@ -14,9 +14,9 @@ public class Test2 {
 
     private static void Comparison(String a, String b) {
         if (a.contentEquals(b)) {
-            System.out.println("Строки идентичны");
+            System.out.println("Строки a и b идентичны");
         } else {
-            System.out.println("Строки не идентичны");
+            System.out.println("Строки a и b не идентичны");
         }
     }
 }
